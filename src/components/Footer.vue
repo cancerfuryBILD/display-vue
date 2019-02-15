@@ -32,11 +32,24 @@ export default {
 </script>
 
 <style>
+html{
+   min-height: 100%;
+   position: relative;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 200px;
+}
 footer {
     background-color: #efefef;
     padding-top: 23px;
     padding-bottom: 15px;
     font-size: 12px;
+}
+footer p {
+    font-size: 0.75rem;
 }
 footer p, footer a {
     color: #a5a5a5;

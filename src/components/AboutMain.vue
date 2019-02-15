@@ -1,9 +1,9 @@
 <template>
-    <div class="about-main">
-        <b-container class="clearfix">
+    <div class="about-main container">
+        <div class="clearfix">
             <img :class="imageClass" :title="imageTitle" :src="image" :alt="imageAlt">
             <div v-html="text"></div>
-        </b-container>
+        </div>
     </div>
 </template>
 
@@ -45,11 +45,12 @@ export default {
 .clearfix {
     overflow: hidden;
 }
-.about-main .container p:last-child {
+.about-main  p:last-child {
     margin-top: 22px;
 }
 .about-main {
     margin-bottom: 30px;
+    margin-top: 44px;
 }
 
 </style>

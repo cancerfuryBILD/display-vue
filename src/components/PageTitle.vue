@@ -18,7 +18,6 @@ export default {
     background-color: #2ecc71;
     padding: 32px 0px;
     letter-spacing: 0.02;
-    margin-bottom: 44px;
 }
 .page-title h1{
     color: #fff;

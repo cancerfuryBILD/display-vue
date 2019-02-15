@@ -1,17 +1,19 @@
 <template>
-   <div class="navigation text-right">
-      <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-      <b-navbar toggleable="md" class=" pl-0">
-         <b-collapse is-nav id="nav_collapse">
-            <b-navbar-nav>
-               <router-link v-for="(navLink, index) in navLinks" :key="index" :to="navLink.link">{{ navLink.name }}</router-link>
-            </b-navbar-nav>
-         </b-collapse>
-      </b-navbar>
-   </div>
-</template>
+  <nav class="navbar navbar-expand-sm pl-0 pr-0">
+    <div class="container pl-0">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav main-navigation">
+          <li class="nav-item" v-for="(navLink, index) in navLinks" :key="index" >
+            <router-link :to="navLink.link">{{ navLink.name }}</router-link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>     
 
 <script>
+
 export default {
    name: 'MainNavigation',
    data() {
@@ -23,47 +25,41 @@ export default {
             {name: 'Contact', link: '/contact'}
          ]
       }
-   }
+   },
+   
 }
 </script>
 
 <style>
-.navigation  a {
-   font-size: 1.125rem;
-   letter-spacing: 0.02;
-   text-decoration: none;
-   color: #737373;
-   margin-right: 30px;
-   display: inline;
-   padding: 0px;
+.main-navigation {
+  margin-top: 22px;
 }
-.navigation  a:hover {
-color: #3fa369;
+nav {
+    margin-top: 22px;
+    padding-bottom: 0px !important;
 }
-.navigation {
-   border-top: #dadada 1px solid;
-   margin-top: 30px;
-   padding-top: 14px;
+.navbar-nav a {
+    color: #737373;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    letter-spacing: 0.02em !important;
+    text-decoration: none;
 }
-.navigation .router-link-exact-active {
-   color: #2ecc71;
+.main-navigation .nav-item {
+    margin-right: 26px;
 }
-.navigation button {
-   display: none;
+.main-navigation .router-link-exact-active {
+  color: #2ecc71;
+}
+nav .container {
+  border-top: #dadada 1px solid;
 }
 @media (max-width: 576px) {
-   .navigation .b-nav-item {
-      display: list-item;
-      list-style: none;
-   }
-   .navigation {
-      float: right;
-      border-top: none;
-      margin-top: 0px;
-      padding-top: 0px;
-   }
-   .navigation button {
-   display: inline;
-}
+  nav {
+    float: right;
+  }
+  nav .container {
+  border-top: none;
+  }
 }
 </style>

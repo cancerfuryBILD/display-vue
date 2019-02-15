@@ -29,7 +29,7 @@ export default {
 <style>
 .action-call-2 {
     background-color: #322f2f;
-    padding: 58px 0px 58px 0px;
+    padding: 54px 0px 56px 0px;
 }
 .action-call-2 .action-btn {
     float: right;

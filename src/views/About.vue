@@ -2,9 +2,9 @@
   <div class="about">
     <page-title :headline="headline"/>
     <about-main/>
-    <b-container>
+    <div>
         <about-article :articleTexts="articleTexts" />
-    </b-container>
+    </div>
     <about-services></about-services>
   </div>
 </template>
@@ -47,5 +47,6 @@ export default {
 <style>
 .about {
   clear: right;
+  margin-bottom: 44px;
 }
 </style>

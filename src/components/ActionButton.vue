@@ -14,8 +14,8 @@ export default {
 <style scoped>
 .action-btn {
     font-size: 14px;
-    padding: 12px 22px;
-    margin-top: -4px;
+    padding: 10px 22px;
+    margin-top: -2px;
     background-color: #2ecc71;
     border: none;
     color: #fff;
