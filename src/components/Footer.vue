@@ -54,7 +54,7 @@ footer p {
 footer p, footer a {
     color: #a5a5a5;
 }
-.footer-nav li, .category li {
+.footer-nav li {
     display: inline;
     list-style: none;
 }

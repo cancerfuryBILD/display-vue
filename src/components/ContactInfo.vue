@@ -26,7 +26,7 @@
                 <td>9 am - 5 pm</td>
             </tr>
             <tr>
-                <td class="td-right-margin">Sunday & Holidays</td>
+                <td class="td-right-margin">Sunday &amp; Holidays</td>
                 <td>Closed</td>
             </tr>
             </table>
