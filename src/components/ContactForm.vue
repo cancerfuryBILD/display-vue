@@ -65,4 +65,9 @@ textarea {
 .form h2 {
     margin-bottom: 18px;
 }
+@media (max-width: 576px) {
+    textarea, input {
+        width: 100%;
+    }
+}
 </style>

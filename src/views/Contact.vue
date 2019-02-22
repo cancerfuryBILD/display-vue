@@ -31,5 +31,14 @@ export default {
 </script>
 
 <style>
-
+.contact-form {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 249px;
+}
+@media (max-width: 576px) {
+  .contact-form {
+    grid-template-columns: 100%
+}
+}
 </style>

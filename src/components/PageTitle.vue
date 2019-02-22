@@ -23,4 +23,5 @@ export default {
     color: #fff;
     margin: 0px;
 }
+
 </style>

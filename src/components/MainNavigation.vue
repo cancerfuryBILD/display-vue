@@ -55,11 +55,11 @@ nav .container {
   border-top: #dadada 1px solid;
 }
 @media (max-width: 576px) {
-  nav {
-    float: right;
-  }
   nav .container {
   border-top: none;
+  }
+  nav {
+    display: none;
   }
 }
 </style>

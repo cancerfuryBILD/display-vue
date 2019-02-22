@@ -64,4 +64,21 @@ export default {
 .address a {
     color: #2ecc71;
 }
+@media (max-width: 768px) {
+    .contact-info {
+        padding-left: 40px;
+    }
+    .td-right-margin {
+    padding-right: 30px;
+}
+}
+@media (max-width: 576px) {
+    .contact-info {
+        padding-left: 0px;
+        margin-top: 36px;
+    }
+    .td-right-margin {
+    padding-right: 50px;
+}
+}
 </style>

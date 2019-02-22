@@ -3,7 +3,7 @@
         <call-to-action-2 :callActionTitle="callActionTitle" />
         <footer>
             <div class="container">
-                <p class="d-inline">COPYRIGHT 2019 DISPLAY. ALL RIGHTS RESERVED</p>
+                <p>COPYRIGHT 2019 DISPLAY. ALL RIGHTS RESERVED</p>
                 <ul class="footer-nav">
                     <li><a href="index.html">Home </a>/</li>
                     <li><a href="about.html"> About </a>/</li>
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style>
-html{
+html {
    min-height: 100%;
    position: relative;
 }
@@ -49,6 +49,7 @@ footer {
     font-size: 12px;
 }
 footer p {
+    display: inline;
     font-size: 0.75rem;
 }
 footer p, footer a {
@@ -66,5 +67,14 @@ footer a:hover {
 }
 .footer-nav li a {
     margin: 0px 5px;
+}
+@media (max-width: 576px) {
+    .footer-nav {
+    float: none;
+    padding-left: 0px;    
+}
+footer {
+        text-align: center;
+    }
 }
 </style>

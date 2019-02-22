@@ -153,12 +153,27 @@ export default {
   label [type='radio'] {
     display: none;
   }
+  label:hover, label [type='radio'] + label:checked {
+    color: #2ecc71;
+    cursor: pointer;
+
+  }
   .filter {
     color:#8a8888;
     font-size: 1.1875rem;
     letter-spacing: .02rem;
   }
-  .filter label {
-        cursor: pointer;
+  @media (max-width: 576px) {
+    .list-images {
+      grid-template-columns: 1fr 1fr;
+  }
+  .layout {
+    display: none;
+  }
+  }
+  @media (max-width: 425px) {
+    .list-images {
+      grid-template-columns: 1fr;
+  }
   }
 </style>

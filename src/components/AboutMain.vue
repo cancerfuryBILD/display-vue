@@ -52,5 +52,10 @@ export default {
     margin-bottom: 30px;
     margin-top: 44px;
 }
-
+@media (max-width: 425) {
+    .img-float {
+        width: 100%;
+        padding: 5px 0px 15px 0px;
+}
+}
 </style>

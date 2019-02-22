@@ -6,6 +6,7 @@
         <about-article :articleTexts="articleTexts" />
     </div>
     <about-services></about-services>
+    <app-accordion />
   </div>
 </template>
 
@@ -14,13 +15,16 @@ import PageTitle from "@/components/PageTitle.vue";
 import AboutMain from "@/components/AboutMain.vue";
 import AboutArticle from "@/components/AboutArticle.vue";
 import Services from "@/components/Services.vue";
+import Accordion  from "@/components/Accordion.vue";
+
 export default {
   name: 'about',
   components: {
     'page-title': PageTitle,
     'about-main': AboutMain,
     'about-article': AboutArticle,
-    'about-services': Services
+    'about-services': Services,
+    "app-accordion": Accordion
   },
   data() {
     return {

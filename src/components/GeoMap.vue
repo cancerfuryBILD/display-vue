@@ -23,4 +23,9 @@ export default {
 .map {
 margin-bottom: 38px;
 }
+@media (max-width: 768px) {
+    iframe {
+        height: 300px;
+    }
+}
 </style>

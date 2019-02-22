@@ -4,7 +4,7 @@
         <div class="services-tabs">
             <div class="container text-center">
                 <ul class="nav nav-pills" id="pills-tab" role="tablist" >
-                    <li class="nav-item col-sm-3" v-for="(tabItem, index) in tabItems" :key="index">
+                    <li class="nav-item col-md-3" v-for="(tabItem, index) in tabItems" :key="index">
                         <a :class="tabItem.tabLinkClass" 
                         :id="tabItem.tabId" 
                         :data-toggle="tabItem.tabDataToggle"
@@ -206,4 +206,22 @@ export default {
 .services {
     margin-bottom: 241px;
 }
+
+@media screen and (max-width: 768px) {
+    .services {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 </style>

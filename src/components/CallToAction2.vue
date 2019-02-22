@@ -38,4 +38,16 @@ h4 {
     display: inline;
     color: #fff;
 }
+ @media (max-width: 576px) {
+    .action-call-2 .action-btn {
+    float: none;
+}
+.action-call-2 {
+text-align: center;
+}
+h4 {
+    display: block;
+    margin-bottom: 20px;
+}
+ }
 </style>

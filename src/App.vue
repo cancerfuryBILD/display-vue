@@ -2,14 +2,14 @@
   <div id="app">
     <app-header/>
     <router-view />
-    <app-footer/>
+    <app-footer/> 
   </div>
 </template>
 
 <script>
-import Vue from 'vue';
 import Header from '@/components/Header.vue';
 import Footer from "@/components/Footer.vue";
+
 
 export default {
   name: "app",
@@ -18,6 +18,8 @@ export default {
     'app-footer': Footer
   }
 }
+
+
 </script>
 
 <style>
@@ -71,5 +73,15 @@ h2, h4, span {
 }
 h3 {
   font-size: 1.125rem;
+}
+@media (max-width: 576px) {
+  h1, h4 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 425px) {
+  h1, h4 {
+    font-size: 1.2rem;
+  }
 }
 </style>
