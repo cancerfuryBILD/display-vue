@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import Banner from '@/components/Banner.vue';
-import CallToAction1 from "@/components/CallToAction1.vue";
-import Video from "@/components/Video.vue";
-import Projects from "@/components/Projects.vue";
-import Carousel from "@/components/Carousel.vue";
+import Banner from '@/components/Home/Banner.vue';
+import CallToAction1 from "@/components/Home/CallToAction1.vue";
+import Video from "@/components/Home/Video.vue";
+import Projects from "@/components/Home/Projects.vue";
+import Carousel from "@/components/Home/Carousel.vue";
 
 
 export default {

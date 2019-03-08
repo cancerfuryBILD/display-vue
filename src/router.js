@@ -4,6 +4,8 @@ import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Work from "./views/Work.vue";
 import Contact from "./views/Contact.vue";
+import Axios from "./views/Axios.vue";
+import Test from "./views/Test.vue";
 
 Vue.use(Router);
 
@@ -30,6 +32,16 @@ export default new Router({
       path: "/contact",
       name: "contact",
       component: Contact
+    },
+    {
+      path: "/axios",
+      name: "axios",
+      component: Axios
+    },
+    {
+      path: "/test",
+      name: "test",
+      component: Test
     }
   ]
 });

@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import GeoMap from '@/components/GeoMap.vue';
-import PageTitle from '@/components/PageTitle.vue';
-import ContactForm from '@/components/ContactForm.vue';
-import ContactInfo from '@/components/ContactInfo.vue';
+import GeoMap from '@/components/Contact/GeoMap.vue';
+import PageTitle from '@/components/Common/PageTitle.vue';
+import ContactForm from '@/components/Contact/ContactForm.vue';
+import ContactInfo from '@/components/Contact/ContactInfo.vue';
 export default {
   name: "contact",
   components: {

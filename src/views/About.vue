@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import PageTitle from "@/components/PageTitle.vue";
-import AboutMain from "@/components/AboutMain.vue";
-import AboutArticle from "@/components/AboutArticle.vue";
-import Services from "@/components/Services.vue";
-import Accordion  from "@/components/Accordion.vue";
+import PageTitle from "@/components/Common/PageTitle.vue";
+import AboutMain from "@/components/About/AboutMain.vue";
+import AboutArticle from "@/components/About/AboutArticle.vue";
+import Services from "@/components/About/Services.vue";
+import Accordion  from "@/components/About/Accordion.vue";
 
 export default {
   name: 'about',
